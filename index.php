@@ -23,10 +23,8 @@ $f3->set('DEBUG', 3);
 //define a default route
 //you can do GET /home/main/hello/
 $f3->route('GET /', function(){
-    echo '<h1>Pet Home!</h1>';
-    //display a view
-//    $view = new Template();
-//    echo $view->render('views/home.html');
+    $view = new Template();
+    echo $view->render('views/home.html');
 });
 
 //Run Fat-free
