@@ -5,5 +5,5 @@ body {
 
 img {
     width: 20vw;
-    box-shadow: 0 0 10px Orange;
+    box-shadow: 0 0 10px Orange, 0 10px 10px Cyan, 10px 0 10px lightcoral;
 }
